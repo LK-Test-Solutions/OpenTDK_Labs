@@ -4,6 +4,6 @@ The tutorials pages will be build up continuously with step-by-step instructions
 
 ## Guided tours
 
-| Tour | Description |
-|------|-------------|
+| Tour | Subject |
+|------|---------|
 | [Create non-GUI application](CreateNewApplication_nonGUI) | Demonstrates how to implement all classes for an application that reads and transforms contacts data |
