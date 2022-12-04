@@ -6,7 +6,7 @@ Please explore the folliwing resources to understand and reproduce the concepts 
 
 [References and manuals](Documentation/Documentation_Overview.md)
 
-[Tutorials](Tutorials/Tutorials.md)
+[Tutorials](Tutorials)
 
 [Sample code / Sample projects](Sample-Projects)
 
