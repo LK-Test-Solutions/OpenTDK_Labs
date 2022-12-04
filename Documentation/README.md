@@ -1,2 +1,2 @@
 # Content
-[Concepts](Documentation/Concepts)
+[Concepts](Concepts)
