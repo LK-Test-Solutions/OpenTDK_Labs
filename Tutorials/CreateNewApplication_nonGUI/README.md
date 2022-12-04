@@ -6,5 +6,31 @@ The challange for the developer is to:
 * and write the transformed data into CSV-files, which can be imported by the DB system
 
 # Conditions
-## Input format with contacts data (XML files)
+## Contact data format (XML files)
+The application should be able to read and parse data of the following format:
 
+```
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Contacts>
+  <contact id="1">
+    <firstname>Max</firstname>
+    <lastname>Mustermann</lastname>
+    <birthdate>01.01.1970</birthdate>
+    <street>Musterstrasse</street>
+    <number>1</number>
+    <zipcode>12345</zipcode>
+    <city>Musterhausen</city>
+    <country>Germany</country>
+  </contact>
+  <contact id="2">
+    <firstname>John</firstname>
+    <lastname>Doe</lastname>
+    <birthdate>11.11.2000</birthdate>
+    <street>Mainstreet</street>
+    <number>1</number>
+    <zipcode>ST 7UR</zipcode>
+    <city>London</city>
+    <country>United Kingdom</country>
+  </contact>  
+</Contacts>
+```
