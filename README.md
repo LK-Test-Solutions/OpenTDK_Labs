@@ -4,7 +4,7 @@
 The motivation for this repository is, to provide all information that maybe helpful for implementation of java applications using OpenTDK.
 Please explore the folliwing resources to understand and reproduce the concepts of how to use the libraries and packages of this project.
 
-[References and manuals](Documentation/Documentation_Overview.md)
+[References and manuals](Documentation)
 
 [Tutorials](Tutorials)
 
