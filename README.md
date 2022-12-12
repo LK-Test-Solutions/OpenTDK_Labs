@@ -2,7 +2,7 @@
 
 # OpenTDK_Labs
 The motivation for this repository is, to provide all information that maybe helpful for implementation of java applications using OpenTDK.
-Please explore the folliwing resources to understand and reproduce the concepts of how to use the libraries and packages of this project.
+Please explore the following resources to understand and reproduce the concepts of how to use the libraries and packages of this project.
 
 [References and manuals](Documentation)
 
