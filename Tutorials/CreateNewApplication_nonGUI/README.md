@@ -6,8 +6,9 @@ The challange for the developer is to:
 * and write the transformed data into CSV-files, which can be imported by the DB system
 
 # Conditions
-### [Contact data source format](#contact-data-source-format-xml-files)
-### [Contact data target format](#contact-data-target-format-tabular)
+[Contact data source format](#contact-data-source-format-xml-files)
+
+[Contact data target format](#contact-data-target-format-tabular)
 
 ## Contact data source format (XML files)
 The application should be able to read and parse data of the following format:
@@ -39,3 +40,8 @@ The application should be able to read and parse data of the following format:
 ```
 
 ## Contact data target format (tabular)
+```
+firstname;lastname;birthdate;street;number;zipcode;city;country
+Max;Mustermann;01.01.1970;Musterstrasse;12345;Musterhausen;Germany
+John;Doe;11.11.2000;Mainstreet;1;ST 7UR;London;United Kingdom
+```
