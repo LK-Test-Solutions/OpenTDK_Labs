@@ -4,7 +4,7 @@ The tutorials pages will be build up continuously with step-by-step instructions
 
 ## Guided tours
 
-| Tour | Subject |
-|------|---------|
-| [Set up development environment]() | Demonstrates how to set up the required software to use the OpenTDK libraries  |
+| Tour                                                      | Subject                                                                                              |
+|-----------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| [Import the OpenTDK library](ImportOpenTDK)               | Demonstrates how to import the OpenTDK library into your own project                                 |
 | [Create non-GUI application](CreateNewApplication_nonGUI) | Demonstrates how to implement all classes for an application that reads and transforms contacts data |
