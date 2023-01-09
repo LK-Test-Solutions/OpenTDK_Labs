@@ -19,5 +19,6 @@ There are specific container classes for the source types..
 - YAML and
 - ResultSet of a database query. 
 
-The <b>DataContainer</b> can be used directly or via the <b>Dispatcher</b> concept that is part of this documentation 
-as well.
+The <b>DataContainer</b> can be used directly or via the
+[Dispatcher](https://github.com/LK-Test-Solutions/OpenTDK_Labs/blob/main/Documentation/Concepts/Dispatcher.md) 
+classes.
