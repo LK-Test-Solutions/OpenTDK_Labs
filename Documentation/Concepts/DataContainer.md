@@ -1,6 +1,6 @@
 # Introduction
 
-The <b>datastorage</b> concept arised to support developers to accomplish different data processing tasks. 
+The <b>datastorage</b> concept was created to support developers to accomplish different data processing tasks. 
 
 The idea is to use one object that is able to handle any data source. The internal data storage is unknown to the user 
 and therefore the data access is similar for all source types.
