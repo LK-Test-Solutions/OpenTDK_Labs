@@ -1,5 +1,5 @@
 # OpenTDK Helper (Utility) Classes
-The OpenTDK Utility classes provide a collection of methods to deal with various date, I/O and List related activities. In addition it turned out to provide a number of generic math functions
+The OpenTDK Utility classes provide a collection of methods to deal with various date, I/O and List related activities. In addition a number of methods for mathematical functions e.g. to calculate the standard deviation are provided to simplify development.
 
 # DateUtil
 
