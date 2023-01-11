@@ -1,3 +1,9 @@
+# Conditions
+
+- Experience with Java and Maven
+- Installed Eclipse or Intellij IDE
+- [Installed JDK](https://jdk.java.net/ )
+
 # Prior information
 
 The Maven dependency is in work and will be available like this:
