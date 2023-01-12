@@ -2,10 +2,10 @@
 
 The goal of this tutorial is to create a JavaFX application with the following structure:
 
-![JavaFXProjectStructure.png](JavaFXProjectStructure.png)
+![JavaFXProjectStructure.png](img/JavaFXProjectStructure.png)
 
 
-This is a Java Maven project created with Intellij by using <code>File > New > Project..</code> and then selecting
+This is a Java Maven project created with Intellij by using ``File > New > Project..`` and then selecting
 Java, Maven and the installed JDK.
 With Eclipse it's the same menu navigation, but then you search for Maven instead. With other IDEs, like Visual Studio Code,
 this will not be a problem as well.

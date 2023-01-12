@@ -49,13 +49,13 @@ public class MainApp extends BaseApplication { // 1
 }
 ```
 
-1. The class inherits from <code>org.opentdk.gui.application.BaseApplication</code> that acts like a common JavaFX main class and takes some initial steps. 
-2. The <code>SampleController</code> class steers the behaviour of the GUI. It gets initialized in the <code>showRootLayout</code> method and is connected to a FXML file.
-3. The <code>Application.launch</code> method starts the JavaFX application thread that calls <code>Application.init</code> and then <code>Application.start</code> that calls <code>showRootLayout</code>.
-4. The <code>init</code> method gets overwritten to set some main properties. This is optional, but there is one exception named in (5).
-5. The <code>ResourceBundle</code> object gets used to initialize or point to a <code>.properties</code> file on the classpath that contains key value pairs for internationalization. In this case it is a file named <code>Bundle_en.properties</code> (concatenation of name and language). If it should be used, it has to be initialized in the <code>init</code> method.
-6. These are three sample settings. The usage of a <code>.css</code> file to change the look of the application and the width and height.
-7. This is the part where the window gets initialized and started. The <code>BaseApplication.showStage</code> method loads the FXML file <code>Sample.fxml</code> with a title from the resource bundle.
+1. The class inherits from ``org.opentdk.gui.application.BaseApplication`` that acts like a common JavaFX main class and takes some initial steps. 
+2. The ``SampleController`` class steers the behaviour of the GUI. It gets initialized in the ``showRootLayout`` method and is connected to a FXML file.
+3. The ``Application.launch`` method starts the JavaFX application thread that calls ``Application.init`` and then ``Application.start`` that calls ``showRootLayout``.
+4. The ``init`` method gets overwritten to set some main properties. This is optional, but there is one exception named in (5).
+5. The ``ResourceBundle`` object gets used to initialize or point to a ``.properties`` file on the classpath that contains key value pairs for internationalization. In this case it is a file named ``Bundle_en.properties`` (concatenation of name and language). If it should be used, it has to be initialized in the ``init`` method.
+6. These are three sample settings. The usage of a ``.css`` file to change the look of the application and the width and height.
+7. This is the part where the window gets initialized and started. The ``BaseApplication.showStage`` method loads the FXML file ``Sample.fxml`` with a title from the resource bundle.
 
 Remaining questions: 
 

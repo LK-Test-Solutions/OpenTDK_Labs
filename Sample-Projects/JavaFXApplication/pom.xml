@@ -1,9 +1,3 @@
-# How to create involved classes and files
-
-First of all, the Maven project automatically has its ``pom.xml`` file. For this tutorial it should look 
-like this:
-
-```
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>JavaFXApplication</groupId>
@@ -82,41 +76,3 @@ like this:
 		</dependency>
 	</dependencies>
 </project>
-```
-
-It has the required coordinates at the top, all dependencies and the used Java version.
-
-And the project/module has its module-info file, that has to look like this:
-
-```
-module mainappgroup {
-    opens application.test to javafx.fxml, javafx.graphics, javafx.base, opentdk.gui;
-    
-    requires javafx.base;
-    requires javafx.controls;
-    requires javafx.fxml;
-    requires javafx.graphics;	
-    requires javafx.swing;
-    
-    requires opentdk.gui;
-}
-```
-
-The project need to allow access to the JavaFX modules and the ``opentdk.gui`` module. Unfortunately ``
-opens`` is necessary and using ``exports`` is not sufficient.
-Afterwards all required modules are listed.
-
-All other files in the main package ``application.test`` can be created without any content.
-
-- application.css
-- Bundle_en.properties
-- MainApp.java
-- Person.java
-- Sample.fxml
-- SampleController.java
-
-The files get brought to live in the following pages.
-
-- [createMainClass](createMainClass.md)
-- [createFxmlFile](createFxmlFile.md)
-- [createControllerClass](createControllerClass.md)
