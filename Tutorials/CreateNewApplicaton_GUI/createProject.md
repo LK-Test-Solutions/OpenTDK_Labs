@@ -3,7 +3,7 @@
 First of all, the Maven project automatically has its ``pom.xml`` file. For this tutorial it should look 
 like this:
 
-```
+```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>JavaFXApplication</groupId>
@@ -88,7 +88,7 @@ It has the required coordinates at the top, all dependencies and the used Java v
 
 And the project/module has its module-info file, that has to look like this:
 
-```
+```java
 module mainappgroup {
     opens application.test to javafx.fxml, javafx.graphics, javafx.base, opentdk.gui;
     

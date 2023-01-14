@@ -1,4 +1,4 @@
-# Build FXML files
+# How to build FXML files
 
 **Prerequisite: Installed [SceneBuilder](https://gluonhq.com/products/scene-builder/) application**
 
@@ -8,8 +8,8 @@ elements. This saves a lot of time.
 The following areas are the most important ones:
 
 1. List of all available GUI elements. Use the search function to get the required one more quickly.
-2. Object tree that shows all already used elements
-3. Workspace to drag and drop the elements into
+2. Object tree that shows all already used elements.
+3. Workspace to drag and drop the elements into.
 4. Area to edit the elements settings with the sections *Properties*, *Layout* and *Code*. More details in the example below.
 
 ![](img/SceneBuilder.png)
@@ -74,6 +74,11 @@ To do that use the ``Code`` section on the right. Note: To give a fx:id for the 
 
 ![](img/SceneBuilder-fxid.png)
 
-Now select the controller class.
+Now select the controller class or type the whole classpath with class name.
 
 ![](img/SceneBuilder-selectController.png)
+
+Finally, generate and copy the skeleton of the controller class by selecting ``Menu > View > Show Sample Controller Skeleton`` 
+and go to the last chapter [createControllerClass](createControllerClass.md).
+
+![](img/SceneBuilder-generateController.png)

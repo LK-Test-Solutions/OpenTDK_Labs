@@ -3,7 +3,7 @@
 Let's not use too many words - this is the whole class. The most important lines are marked with a number that
 matches to the description below.
 
-```
+```java
 package application.test;
 
 import java.io.IOException;
