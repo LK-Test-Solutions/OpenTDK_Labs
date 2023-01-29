@@ -1,16 +1,19 @@
+|   |   | Conditions > |
+| :--- | :---: | ---: |
+
 # Introduction
 In our fictional scenario we assume that contacts data like *first name*, *last name*, *birthdate* etc. can be retrieved by a web service request in XML format and the data sets need to be migrated into a table of a database. 
 The challange for the developer is to:
-* read and parse the contacts data from XML files, 
+* read and parse the contacts data from XML, 
 * transform the data into tabular data sets
 * and write the transformed data into CSV-files, which can be imported by the DB system
 
 # Conditions
-[Contact data source format](#contact-data-source-format-xml-files)
+[Contact data source format](#contact-data-source-format-xml)
 
 [Contact data target format](#contact-data-target-format-tabular)
 
-## Contact data source format (XML files)
+## Contact data source format (XML)
 The application should be able to read and parse data of the following format:
 
 ```
