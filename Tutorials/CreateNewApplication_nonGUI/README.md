@@ -1,4 +1,4 @@
-|   |   | Conditions > |
+| < previous  | Home | Next > |
 | :--- | :---: | ---: |
 
 # Introduction
